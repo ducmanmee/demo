@@ -1,0 +1,35 @@
+@media (min-width:601px) and (max-width:992px){
+    .ab-2{
+        display: none ; 
+    }
+    .img-mn,
+    .img-mn img,
+    .content-mn{
+        width: 100% ;
+        float: none ;  
+    }  
+    
+}
+
+@media (max-width:600px){
+    .img-mn,
+    .img-mn img,
+    .content-mn{
+        width: 100% ;
+        float: none ;  
+    } 
+    .header .res{
+        display: none ; 
+    }
+    .about .img-ab{
+        display: none ; 
+    }
+    .about .img-ab,
+    .about .text-ab{
+        width: 100% ;
+        float: none ;
+    }
+    html{
+        font-size: 70%;
+    }
+}

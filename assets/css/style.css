@@ -1,0 +1,245 @@
+*
+{
+    padding: 0 ; 
+    margin: 0 ;
+    box-sizing: border-box ;
+}
+
+body
+{
+    line-height: 1.5 ; 
+    font-family: 'Times New Roman', Times, serif;
+}
+
+html
+{
+    scroll-behavior: smooth;
+}
+
+hr
+{
+    border: 0 ; 
+    border-top: 1px solid #eee;
+    margin: 20px 0;
+}
+
+/* Common */
+
+.let-spc
+{
+    letter-spacing: 4px ; 
+}
+
+.left-fl
+{
+    float: left;
+}
+
+.half
+{
+    width: 50% ; 
+}
+
+.row-half
+{
+    padding: 12px 24px ;
+    width: 50%;
+}
+
+.right-fl
+{
+    float: right;
+}
+
+.clear
+{
+    clear: both;
+}
+
+.header
+{
+    position: fixed ; 
+    z-index: 1 ;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff ; 
+    padding: 8px 16px ;
+    overflow: hidden ; 
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.3) ;
+}
+
+.header a
+{
+    text-decoration: none ; 
+    color: #000 ; 
+    font-size: 15px ;
+    padding: 8px 16px ;
+    border-radius: 3px ; 
+}
+
+.header a:hover
+{
+    background-color: #ccc ; 
+}
+
+.slider
+{
+    background: url("../img/Slider/slider.jpg") top center / cover no-repeat;
+    padding-top: 50%;
+    position: relative;
+}
+
+.content-sl
+{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 12px 24px ;
+}
+
+h1
+{ 
+    font-size: 36px;
+    font-weight: normal;
+    opacity: 0.6 ;
+    margin: 10px 0;
+    letter-spacing: 5px ; 
+    text-align: center ; 
+
+}
+
+.about
+{
+    padding: 64px 0 ;
+    overflow: hidden; 
+}
+
+.about .img-ab img
+{
+    width: 100%;
+}
+
+.about .text-ab h1
+{
+    opacity: 1; 
+}
+
+.about .sub-text-ab
+{
+    font-size: 18px ;
+    text-align: center ;
+    margin: 10px 0 ;
+}
+
+.text-ab .ab-1
+{
+    margin: 18px 0 ;
+    font-size: 18px ;
+}
+
+.ab-1 span
+{
+    padding: 0 8px;
+    background-color: #f1f1f1 ; 
+}
+
+.text-ab .ab-2
+{
+    margin: 18px 0 ;
+    font-size: 18px;
+    color: #757575 ;
+}
+
+.menu
+{
+    padding: 64px 0 ;
+    overflow: hidden;
+}
+
+.menu .img-mn img
+{
+    border-radius: 4px ;
+    opacity: 0.75;
+}
+
+.menu h1
+{
+    opacity: 1;
+}
+
+.content-mn .food
+{
+    margin: 10px 0 ;
+    font-size: 20px ;
+}
+
+.content-mn .sub-food
+{
+    margin: 15px 0 ;
+    font-size: 15px;
+    color: #757575 ; 
+}
+
+.contact
+{
+ padding: 64px 16px ;
+}
+
+.contact h1
+{
+    opacity: 1;
+    text-align: left;
+}
+
+.contact .sub-contact
+{
+    font-size: 15px ;
+    margin: 15px 0;
+}
+
+.contact .adr
+{
+    font-size:  18px ;
+    font-weight: bold;
+    color: #607d8b ; 
+}
+
+.contact .form-control
+{
+    width: 100%;
+    padding: 16px 8px ;
+    margin: 15px 0;
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px ;
+    border-bottom: 1px solid #ccc;
+}
+
+.contact .send-btn
+{
+    margin: 31px 0 ; 
+    padding: 8px 16px;
+    border: none;
+    font-size: 15px ;
+    border-radius: 2px ;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.footer
+{
+    padding: 32px 0;
+    background-color: #f1f1f1 ; 
+}
+
+.footer p
+{
+    margin: 15px 0;
+    font-size: 15px;
+    text-align: center ; 
+}
+
+.footer a
+{
+    color: #000 ; 
+}
